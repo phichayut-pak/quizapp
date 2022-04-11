@@ -2,7 +2,7 @@
   <div class="flex justify-center items-center border h-screen w-screen">
     <div id="start" class="flex flex-col justify-center items-center" >
       <h1 class="font-bold font-['Poppins'] text-5xl ">Math Quiz</h1>
-      <button class="bg-green-300 my-16 py-5 px-16 font-semibold rounded-full"
+      <button @click="onStartButton" class="bg-green-300 my-16 py-5 px-16 font-semibold rounded-full"
       v-motion
       :initial="{ opacity:0 , x: -100, scale: 1 }"
       :enter="{ opacity: 1, x: 0 }"
