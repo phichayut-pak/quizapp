@@ -1,24 +1,6 @@
-# quizappv2
+# Quiz App
 
-## Project setup
-```
-npm install
-```
+Quiz App built using Vue.js
+Demo website: https://quiz-app-demo-01.netlify.app/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![image](https://user-images.githubusercontent.com/22463788/162698469-76294881-542e-49fb-8e4e-61d3f760f007.png)
