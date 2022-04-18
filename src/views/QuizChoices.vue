@@ -2,9 +2,9 @@
   <div class="flex justify-center items-center border h-screen w-screen" >
         <div id="start" class="flex flex-col justify-center items-center">
           <h1 class="font-bold font-['Poppins'] text-5xl">{{ num1 }} {{ operator }} {{ num2}}</h1>
-          <div class="flex justify-center items-center" >
+          <div class="grid grid-flow-col content-center justify-items-center grid-rows-2 lg:flex lg:justify-center lg:items-center mt-10 gap-y-5 gap-x-5" >
             <button 
-            class="bg-green-300 my-16 mx-3 py-10 px-28 font-semibold rounded-full btn" 
+            class="bg-green-300 py-10 px-28 font-semibold rounded-full btn" 
             v-for="(item, key, index) in choices" :key="index"
             @click="checkAnswer(item)"
             >{{ item.result }}</button>
